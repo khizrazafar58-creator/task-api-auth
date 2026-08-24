@@ -5,7 +5,7 @@ A secured version of the Task API, using **Supabase Auth** as the Identity Provi
 ## What this is
 
 A FastAPI backend that handles Sign Up, Log In, and Log Out through Supabase, issues JWTs, and protects specific routes so they only answer for logged-in users — verified via a reusable auth guard (FastAPI dependency).
-
+_
 ## How to set up your environment variables
 
 1. Create a free project at [supabase.com](https://supabase.com) (call it anything, e.g. `Auth-Practice`).
