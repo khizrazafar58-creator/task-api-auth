@@ -9,7 +9,7 @@ Stage 3: token verification on /protected/profile
 Stage 4: auth middleware (dependency) + logout, reused on a second protected route
 Stage 5: Swagger UI with Bearer auth (HTTPBearer) — built in at /docs
 """
-
+_
 import os
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
